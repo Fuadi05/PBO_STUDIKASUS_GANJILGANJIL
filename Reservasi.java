@@ -23,8 +23,8 @@ public class Reservasi {
     }
 
     public void tampilkanStatusReservasi() {
-        tamu.tampilkanInfoTamu(); // Menggunakan metode dari kelas lain
-        kamar.tampilkanInfoKamar(); // Menggunakan metode dari kelas lain
+        tamu.tampilkanInfoTamu(); 
+        kamar.tampilkanInfoKamar(); 
         System.out.println("Lama Inap: " + lamaInap + " malam");
         
         if (fasilitasTambahan != null) {
