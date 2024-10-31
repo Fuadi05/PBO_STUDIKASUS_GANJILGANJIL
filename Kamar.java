@@ -19,11 +19,7 @@ public class Kamar {
         return hargaPerMalam;
     }
 
-    public void setHargaPerMalam(double hargaPerMalam) { // Setter
-        this.hargaPerMalam = hargaPerMalam;
-    }
-
-    // Method ini dapat dioverride oleh subclass
+    
     public double hitungTotalBiaya(int lamaInap) { 
         return hargaPerMalam * lamaInap; 
     }
